@@ -1,0 +1,12 @@
+datasources:
+  default:
+    url: jdbc:h2:mem:devDb2
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+    dialect: H2
+
+flyway:
+  datasources:
+    default:
+      locations: classpath:flyway
