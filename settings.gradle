@@ -1,4 +1,2 @@
 rootProject.name = 'micronaut-data-java-kotlin'
-include 'embedded-id'
-include 'id'
 

@@ -1,6 +1,5 @@
 package de.braeluca.javakotlin;
 
-import de.braeluca.javakotlin.embeddedId.javakotlin.id.BookEntity;
 import io.micronaut.context.annotation.Context;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,6 +23,7 @@ public class BookService {
         this.bookRepository = bookRepository;
 
         BookEntity entity = new BookEntity("1","TestName");
+
         bookRepository.save(entity);
 
     }

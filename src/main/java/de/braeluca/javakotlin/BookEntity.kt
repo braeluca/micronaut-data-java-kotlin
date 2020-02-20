@@ -1,10 +1,9 @@
-package de.braeluca.javakotlin.embeddedId.javakotlin.id
+package de.braeluca.javakotlin
 
 import io.micronaut.data.annotation.Id
 import io.micronaut.data.annotation.MappedEntity
 import io.micronaut.data.model.naming.NamingStrategies
 import javax.persistence.Table
-
 
 @MappedEntity(namingStrategy = NamingStrategies.Raw::class)
 @Table(name = "Book")
